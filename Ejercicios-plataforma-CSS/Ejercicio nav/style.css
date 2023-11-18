@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+
+}
+ul{
+    text-decoration :none;
+    display: flex;
+    list-style: none;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+li{
+    margin-right: 50px;
+    font-size: 25px;
+}
+body{
+    margin: 0;
+}
+li:first-of-type{
+    font-size: 30px;
+}
+li:nth-of-type(2){
+    color: blanchedalmond;
+}
+
+.grey{
+    color: grey;
+}
+
+select{
+    
+    background-color: black;
+    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0;
+  color: white;
+  font-size: 25px;
+}
+
+.dark-grey{
+    color: rgb(78, 70, 70);
+
+
+}
+
+
+
+button:hover{
+color:white;
+background-color: green;
+
+}
