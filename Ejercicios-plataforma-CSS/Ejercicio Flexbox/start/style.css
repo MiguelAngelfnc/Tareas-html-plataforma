@@ -1,0 +1,21 @@
+.sidebar{
+   width: 200px;
+   height: 100%; 
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+
+}
+img{
+    width: 100%;
+}
+.links >a{
+    flex-direction: column;
+    display: flex;
+    color: #2b2b2b ;
+}
+.links>a:hover{
+    color:  #2b2bb2;
+    transition: 0.3s;
+}
