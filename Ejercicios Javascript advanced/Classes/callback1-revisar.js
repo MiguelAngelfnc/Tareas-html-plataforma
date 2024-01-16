@@ -2,17 +2,12 @@
  The callback function will simply print "Hello". The printAsyncName function will have to execute the callback function after an interval of 1 second.
   After an interval of 2 seconds, we must print the name that we take as a parameter.*/
 
- function printAsyncName(callback,name){
-  setTimeout(()=>
-  {console.log("hello");
- 
-  setTimeout(()=>{
-    console.log(name);
-    callback();
-  },1000);
-  },1000);
+function printAsyncName(callback,name){
+  setInterval(()=>{
+    console.log("hello")},1000);
+  
+    setInterval(()=>{
+      console.log(name)
+    },2000);
 }
-
-printAsyncName(()=>{
-  console.log("callback executed");
-}, "Juan");
+printAsyncName(()=>console.log("callback"),"Pepe")
